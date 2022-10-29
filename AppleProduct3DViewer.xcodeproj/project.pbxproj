@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7954CE6527FB3D0D0006E229 /* AppleDeviceInfoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954CE6427FB3D0D0006E229 /* AppleDeviceInfoApp.swift */; };
+		7954CE6727FB3D0D0006E229 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954CE6627FB3D0D0006E229 /* ContentView.swift */; };
+		7954CE6927FB3D100006E229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7954CE6827FB3D100006E229 /* Assets.xcassets */; };
+		7954CE6C27FB3D100006E229 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7954CE6B27FB3D100006E229 /* Preview Assets.xcassets */; };
+		7954CE7627FB3D100006E229 /* AppleDeviceInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954CE7527FB3D100006E229 /* AppleDeviceInfoTests.swift */; };
+		7954CE8027FB3D100006E229 /* AppleDeviceInfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954CE7F27FB3D100006E229 /* AppleDeviceInfoUITests.swift */; };
+		7954CE8227FB3D100006E229 /* AppleDeviceInfoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954CE8127FB3D100006E229 /* AppleDeviceInfoUITestsLaunchTests.swift */; };
+		7954CE8F27FB4D280006E229 /* Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954CE8E27FB4D280006E229 /* Mac.swift */; };
+		7954CE9127FB4EAB0006E229 /* iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954CE9027FB4EAB0006E229 /* iPad.swift */; };
+		7954CE9327FB4F4D0006E229 /* iPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954CE9227FB4F4D0006E229 /* iPhone.swift */; };
+		7954CE9527FB512B0006E229 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954CE9427FB512B0006E229 /* ErrorView.swift */; };
+		7954CE9727FB57820006E229 /* AppleWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954CE9627FB57820006E229 /* AppleWatch.swift */; };
+		7954CE9927FB58820006E229 /* AppleTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954CE9827FB58820006E229 /* AppleTV.swift */; };
+		7954CE9B27FB593C0006E229 /* AIrPods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954CE9A27FB593C0006E229 /* AIrPods.swift */; };
+		7954CE9D27FB5A6E0006E229 /* HomePod mini.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954CE9C27FB5A6E0006E229 /* HomePod mini.swift */; };
+		7954CE9F27FB5AD90006E229 /* AirTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954CE9E27FB5AD90006E229 /* AirTag.swift */; };
+		7954CEA327FB5E7C0006E229 /* 3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954CEA227FB5E7C0006E229 /* 3DView.swift */; };
+		7954CEA927FB62590006E229 /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEA827FB60CC0006E229 /* Earth.usdz */; };
+		7954CED327FB6A080006E229 /* studio_display_system.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEC227FB6A080006E229 /* studio_display_system.usdz */; };
+		7954CED427FB6A080006E229 /* iMac 24.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEC327FB6A080006E229 /* iMac 24.usdz */; };
+		7954CED527FB6A080006E229 /* mac_studio_system.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEC427FB6A080006E229 /* mac_studio_system.usdz */; };
+		7954CED627FB6A080006E229 /* Mac mini.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEC527FB6A080006E229 /* Mac mini.usdz */; };
+		7954CED727FB6A080006E229 /* MacBook Air.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEC627FB6A080006E229 /* MacBook Air.usdz */; };
+		7954CED827FB6A080006E229 /* iPad Air.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEC727FB6A080006E229 /* iPad Air.usdz */; };
+		7954CED927FB6A080006E229 /* M1 MacBook Pro 13.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEC827FB6A080006E229 /* M1 MacBook Pro 13.usdz */; };
+		7954CEDA27FB6A080006E229 /* Mac Studio.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEC927FB6A080006E229 /* Mac Studio.usdz */; };
+		7954CEDB27FB6A080006E229 /* iPad Pro 12.9.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CECA27FB6A080006E229 /* iPad Pro 12.9.usdz */; };
+		7954CEDC27FB6A080006E229 /* iPad Pro 11.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CECB27FB6A080006E229 /* iPad Pro 11.usdz */; };
+		7954CEDD27FB6A080006E229 /* iPad.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CECC27FB6A080006E229 /* iPad.usdz */; };
+		7954CEDE27FB6A080006E229 /* MacBook Pro 14.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CECD27FB6A080006E229 /* MacBook Pro 14.usdz */; };
+		7954CEDF27FB6A080006E229 /* Mac Pro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CECE27FB6A080006E229 /* Mac Pro.usdz */; };
+		7954CEE027FB6A080006E229 /* Pro Display XDR.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CECF27FB6A080006E229 /* Pro Display XDR.usdz */; };
+		7954CEE127FB6A080006E229 /* Studio Display.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CED027FB6A080006E229 /* Studio Display.usdz */; };
+		7954CEE227FB6A080006E229 /* iPad mini.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CED127FB6A080006E229 /* iPad mini.usdz */; };
+		7954CEE327FB6A080006E229 /* MacBook Pro 16.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CED227FB6A080006E229 /* MacBook Pro 16.usdz */; };
+		7954CEF327FB6FEB0006E229 /* iPhone 13 Pro Gold.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEE427FB6FEB0006E229 /* iPhone 13 Pro Gold.usdz */; };
+		7954CEF427FB6FEB0006E229 /* iPhone 13 Pro Sierra Blue.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEE527FB6FEB0006E229 /* iPhone 13 Pro Sierra Blue.usdz */; };
+		7954CEF527FB6FEB0006E229 /* iPhone SE Starlight.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEE627FB6FEB0006E229 /* iPhone SE Starlight.usdz */; };
+		7954CEF627FB6FEB0006E229 /* iPhone 13 Green.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEE727FB6FEB0006E229 /* iPhone 13 Green.usdz */; };
+		7954CEF727FB6FEB0006E229 /* iPhone 12.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEE827FB6FEB0006E229 /* iPhone 12.usdz */; };
+		7954CEF827FB6FEB0006E229 /* iPhone 13 Pro  Alpine Green.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEE927FB6FEB0006E229 /* iPhone 13 Pro  Alpine Green.usdz */; };
+		7954CEF927FB6FEB0006E229 /* iPhone 13 Pro  Silver.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEEA27FB6FEB0006E229 /* iPhone 13 Pro  Silver.usdz */; };
+		7954CEFA27FB6FEB0006E229 /* iPhone SE Midnight.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEEB27FB6FEB0006E229 /* iPhone SE Midnight.usdz */; };
+		7954CEFB27FB6FEB0006E229 /* iPhone 13 Midnight.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEEC27FB6FEB0006E229 /* iPhone 13 Midnight.usdz */; };
+		7954CEFC27FB6FEB0006E229 /* iPhone 13 Blue.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEED27FB6FEB0006E229 /* iPhone 13 Blue.usdz */; };
+		7954CEFD27FB6FEB0006E229 /* iPhone SE Product Red.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEEE27FB6FEB0006E229 /* iPhone SE Product Red.usdz */; };
+		7954CEFE27FB6FEB0006E229 /* iPhone 13 Pro Graphite.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEEF27FB6FEB0006E229 /* iPhone 13 Pro Graphite.usdz */; };
+		7954CEFF27FB6FEB0006E229 /* iPhone 13 Pink.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEF027FB6FEB0006E229 /* iPhone 13 Pink.usdz */; };
+		7954CF0027FB6FEB0006E229 /* iPhone 13 Product Red.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEF127FB6FEB0006E229 /* iPhone 13 Product Red.usdz */; };
+		7954CF0127FB6FEB0006E229 /* iPhone 13 Starlight.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CEF227FB6FEB0006E229 /* iPhone 13 Starlight.usdz */; };
+		7954CF0827FB74300006E229 /* Apple Watch S3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF0227FB74300006E229 /* Apple Watch S3.usdz */; };
+		7954CF0927FB74300006E229 /* Apple Watch S7 Starlight.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF0327FB74300006E229 /* Apple Watch S7 Starlight.usdz */; };
+		7954CF0A27FB74300006E229 /* Apple Watch S7 Green.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF0427FB74300006E229 /* Apple Watch S7 Green.usdz */; };
+		7954CF0B27FB74300006E229 /* Apple Watch S7 Product Red.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF0527FB74300006E229 /* Apple Watch S7 Product Red.usdz */; };
+		7954CF0C27FB74300006E229 /* Apple Watch SE.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF0627FB74300006E229 /* Apple Watch SE.usdz */; };
+		7954CF0D27FB74300006E229 /* Apple Watch S7 Blue.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF0727FB74300006E229 /* Apple Watch S7 Blue.usdz */; };
+		7954CF0F27FB74F40006E229 /* Apple Watch S7 Midnight.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF0E27FB74F40006E229 /* Apple Watch S7 Midnight.usdz */; };
+		7954CF1227FB759A0006E229 /* Apple TV HD.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF1027FB759A0006E229 /* Apple TV HD.usdz */; };
+		7954CF1327FB759A0006E229 /* Apple TV 4K.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF1127FB759A0006E229 /* Apple TV 4K.usdz */; };
+		7954CF1B27FB77470006E229 /* AirPods MAX Silver.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF1427FB77470006E229 /* AirPods MAX Silver.usdz */; };
+		7954CF1C27FB77470006E229 /* AirPods MAX Sky Blue.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF1527FB77470006E229 /* AirPods MAX Sky Blue.usdz */; };
+		7954CF1D27FB77470006E229 /* AirPods MAX Space Gray.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF1627FB77470006E229 /* AirPods MAX Space Gray.usdz */; };
+		7954CF1F27FB77470006E229 /* AirPods MAX Pink.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF1827FB77470006E229 /* AirPods MAX Pink.usdz */; };
+		7954CF2027FB77470006E229 /* AirPods S3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF1927FB77470006E229 /* AirPods S3.usdz */; };
+		7954CF2127FB77470006E229 /* AirPods MAX Green.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF1A27FB77470006E229 /* AirPods MAX Green.usdz */; };
+		7954CF2327FB78710006E229 /* AirPods Pro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF2227FB78710006E229 /* AirPods Pro.usdz */; };
+		7954CF2A27FB79680006E229 /* AirTag.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF2427FB79680006E229 /* AirTag.usdz */; };
+		7954CF2B27FB79680006E229 /* Homepod mini White.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF2527FB79680006E229 /* Homepod mini White.usdz */; };
+		7954CF2C27FB79680006E229 /* Homepod mini Orange.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF2627FB79680006E229 /* Homepod mini Orange.usdz */; };
+		7954CF2D27FB79680006E229 /* Homepod mini Yellow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF2727FB79680006E229 /* Homepod mini Yellow.usdz */; };
+		7954CF2E27FB79680006E229 /* HomePod mini Gray.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF2827FB79680006E229 /* HomePod mini Gray.usdz */; };
+		7954CF2F27FB79680006E229 /* HomePod mini Blue.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7954CF2927FB79680006E229 /* HomePod mini Blue.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7954CE7227FB3D100006E229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7954CE5927FB3D0D0006E229 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7954CE6027FB3D0D0006E229;
+			remoteInfo = AppleDeviceInfo;
+		};
+		7954CE7C27FB3D100006E229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7954CE5927FB3D0D0006E229 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7954CE6027FB3D0D0006E229;
+			remoteInfo = AppleDeviceInfo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7954CE6127FB3D0D0006E229 /* AppleProduct3DViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleProduct3DViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7954CE6427FB3D0D0006E229 /* AppleDeviceInfoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDeviceInfoApp.swift; sourceTree = "<group>"; };
+		7954CE6627FB3D0D0006E229 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7954CE6827FB3D100006E229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7954CE6B27FB3D100006E229 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7954CE7127FB3D100006E229 /* AppleProduct3DViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleProduct3DViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7954CE7527FB3D100006E229 /* AppleDeviceInfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDeviceInfoTests.swift; sourceTree = "<group>"; };
+		7954CE7B27FB3D100006E229 /* AppleProduct3DViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleProduct3DViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7954CE7F27FB3D100006E229 /* AppleDeviceInfoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDeviceInfoUITests.swift; sourceTree = "<group>"; };
+		7954CE8127FB3D100006E229 /* AppleDeviceInfoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDeviceInfoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7954CE8E27FB4D280006E229 /* Mac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mac.swift; sourceTree = "<group>"; };
+		7954CE9027FB4EAB0006E229 /* iPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPad.swift; sourceTree = "<group>"; };
+		7954CE9227FB4F4D0006E229 /* iPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhone.swift; sourceTree = "<group>"; };
+		7954CE9427FB512B0006E229 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		7954CE9627FB57820006E229 /* AppleWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatch.swift; sourceTree = "<group>"; };
+		7954CE9827FB58820006E229 /* AppleTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleTV.swift; sourceTree = "<group>"; };
+		7954CE9A27FB593C0006E229 /* AIrPods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIrPods.swift; sourceTree = "<group>"; };
+		7954CE9C27FB5A6E0006E229 /* HomePod mini.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomePod mini.swift"; sourceTree = "<group>"; };
+		7954CE9E27FB5AD90006E229 /* AirTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTag.swift; sourceTree = "<group>"; };
+		7954CEA227FB5E7C0006E229 /* 3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DView.swift; sourceTree = "<group>"; };
+		7954CEA827FB60CC0006E229 /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Earth.usdz; path = ../../../../../Downloads/Scene/Scene/Objects/Earth.usdz; sourceTree = "<group>"; };
+		7954CEC227FB6A080006E229 /* studio_display_system.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = studio_display_system.usdz; path = usdz/studio_display_system.usdz; sourceTree = SOURCE_ROOT; };
+		7954CEC327FB6A080006E229 /* iMac 24.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "iMac 24.usdz"; path = "usdz/iMac 24.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CEC427FB6A080006E229 /* mac_studio_system.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = mac_studio_system.usdz; path = usdz/mac_studio_system.usdz; sourceTree = SOURCE_ROOT; };
+		7954CEC527FB6A080006E229 /* Mac mini.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Mac mini.usdz"; path = "usdz/Mac mini.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CEC627FB6A080006E229 /* MacBook Air.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "MacBook Air.usdz"; path = "usdz/MacBook Air.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CEC727FB6A080006E229 /* iPad Air.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "iPad Air.usdz"; path = "usdz/iPad Air.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CEC827FB6A080006E229 /* M1 MacBook Pro 13.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "M1 MacBook Pro 13.usdz"; path = "usdz/M1 MacBook Pro 13.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CEC927FB6A080006E229 /* Mac Studio.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Mac Studio.usdz"; path = "usdz/Mac Studio.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CECA27FB6A080006E229 /* iPad Pro 12.9.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "iPad Pro 12.9.usdz"; path = "usdz/iPad Pro 12.9.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CECB27FB6A080006E229 /* iPad Pro 11.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "iPad Pro 11.usdz"; path = "usdz/iPad Pro 11.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CECC27FB6A080006E229 /* iPad.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = iPad.usdz; path = usdz/iPad.usdz; sourceTree = SOURCE_ROOT; };
+		7954CECD27FB6A080006E229 /* MacBook Pro 14.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "MacBook Pro 14.usdz"; path = "usdz/MacBook Pro 14.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CECE27FB6A080006E229 /* Mac Pro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Mac Pro.usdz"; path = "usdz/Mac Pro.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CECF27FB6A080006E229 /* Pro Display XDR.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Pro Display XDR.usdz"; path = "usdz/Pro Display XDR.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CED027FB6A080006E229 /* Studio Display.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Studio Display.usdz"; path = "usdz/Studio Display.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CED127FB6A080006E229 /* iPad mini.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "iPad mini.usdz"; path = "usdz/iPad mini.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CED227FB6A080006E229 /* MacBook Pro 16.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "MacBook Pro 16.usdz"; path = "usdz/MacBook Pro 16.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CEE427FB6FEB0006E229 /* iPhone 13 Pro Gold.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "iPhone 13 Pro Gold.usdz"; path = "usdz/iPhone 13 Pro Gold.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CEE527FB6FEB0006E229 /* iPhone 13 Pro Sierra Blue.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "iPhone 13 Pro Sierra Blue.usdz"; path = "usdz/iPhone 13 Pro Sierra Blue.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CEE627FB6FEB0006E229 /* iPhone SE Starlight.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "iPhone SE Starlight.usdz"; path = "usdz/iPhone SE Starlight.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CEE727FB6FEB0006E229 /* iPhone 13 Green.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "iPhone 13 Green.usdz"; path = "usdz/iPhone 13 Green.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CEE827FB6FEB0006E229 /* iPhone 12.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "iPhone 12.usdz"; path = "usdz/iPhone 12.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CEE927FB6FEB0006E229 /* iPhone 13 Pro  Alpine Green.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "iPhone 13 Pro  Alpine Green.usdz"; path = "usdz/iPhone 13 Pro  Alpine Green.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CEEA27FB6FEB0006E229 /* iPhone 13 Pro  Silver.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "iPhone 13 Pro  Silver.usdz"; path = "usdz/iPhone 13 Pro  Silver.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CEEB27FB6FEB0006E229 /* iPhone SE Midnight.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "iPhone SE Midnight.usdz"; path = "usdz/iPhone SE Midnight.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CEEC27FB6FEB0006E229 /* iPhone 13 Midnight.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "iPhone 13 Midnight.usdz"; path = "usdz/iPhone 13 Midnight.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CEED27FB6FEB0006E229 /* iPhone 13 Blue.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "iPhone 13 Blue.usdz"; path = "usdz/iPhone 13 Blue.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CEEE27FB6FEB0006E229 /* iPhone SE Product Red.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "iPhone SE Product Red.usdz"; path = "usdz/iPhone SE Product Red.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CEEF27FB6FEB0006E229 /* iPhone 13 Pro Graphite.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "iPhone 13 Pro Graphite.usdz"; path = "usdz/iPhone 13 Pro Graphite.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CEF027FB6FEB0006E229 /* iPhone 13 Pink.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "iPhone 13 Pink.usdz"; path = "usdz/iPhone 13 Pink.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CEF127FB6FEB0006E229 /* iPhone 13 Product Red.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "iPhone 13 Product Red.usdz"; path = "usdz/iPhone 13 Product Red.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CEF227FB6FEB0006E229 /* iPhone 13 Starlight.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "iPhone 13 Starlight.usdz"; path = "usdz/iPhone 13 Starlight.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CF0227FB74300006E229 /* Apple Watch S3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Apple Watch S3.usdz"; path = "usdz/Apple Watch S3.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CF0327FB74300006E229 /* Apple Watch S7 Starlight.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Apple Watch S7 Starlight.usdz"; path = "usdz/Apple Watch S7 Starlight.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CF0427FB74300006E229 /* Apple Watch S7 Green.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Apple Watch S7 Green.usdz"; path = "usdz/Apple Watch S7 Green.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CF0527FB74300006E229 /* Apple Watch S7 Product Red.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Apple Watch S7 Product Red.usdz"; path = "usdz/Apple Watch S7 Product Red.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CF0627FB74300006E229 /* Apple Watch SE.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Apple Watch SE.usdz"; path = "usdz/Apple Watch SE.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CF0727FB74300006E229 /* Apple Watch S7 Blue.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Apple Watch S7 Blue.usdz"; path = "usdz/Apple Watch S7 Blue.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CF0E27FB74F40006E229 /* Apple Watch S7 Midnight.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Apple Watch S7 Midnight.usdz"; path = "usdz/Apple Watch S7 Midnight.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CF1027FB759A0006E229 /* Apple TV HD.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Apple TV HD.usdz"; path = "usdz/Apple TV HD.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CF1127FB759A0006E229 /* Apple TV 4K.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Apple TV 4K.usdz"; path = "usdz/Apple TV 4K.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CF1427FB77470006E229 /* AirPods MAX Silver.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "AirPods MAX Silver.usdz"; path = "usdz/AirPods MAX Silver.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CF1527FB77470006E229 /* AirPods MAX Sky Blue.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "AirPods MAX Sky Blue.usdz"; path = "usdz/AirPods MAX Sky Blue.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CF1627FB77470006E229 /* AirPods MAX Space Gray.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "AirPods MAX Space Gray.usdz"; path = "usdz/AirPods MAX Space Gray.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CF1827FB77470006E229 /* AirPods MAX Pink.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "AirPods MAX Pink.usdz"; path = "usdz/AirPods MAX Pink.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CF1927FB77470006E229 /* AirPods S3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "AirPods S3.usdz"; path = "usdz/AirPods S3.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CF1A27FB77470006E229 /* AirPods MAX Green.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "AirPods MAX Green.usdz"; path = "usdz/AirPods MAX Green.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CF2227FB78710006E229 /* AirPods Pro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "AirPods Pro.usdz"; path = "usdz/AirPods Pro.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CF2427FB79680006E229 /* AirTag.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = AirTag.usdz; path = usdz/AirTag.usdz; sourceTree = SOURCE_ROOT; };
+		7954CF2527FB79680006E229 /* Homepod mini White.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Homepod mini White.usdz"; path = "usdz/Homepod mini White.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CF2627FB79680006E229 /* Homepod mini Orange.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Homepod mini Orange.usdz"; path = "usdz/Homepod mini Orange.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CF2727FB79680006E229 /* Homepod mini Yellow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Homepod mini Yellow.usdz"; path = "usdz/Homepod mini Yellow.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CF2827FB79680006E229 /* HomePod mini Gray.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "HomePod mini Gray.usdz"; path = "usdz/HomePod mini Gray.usdz"; sourceTree = SOURCE_ROOT; };
+		7954CF2927FB79680006E229 /* HomePod mini Blue.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "HomePod mini Blue.usdz"; path = "usdz/HomePod mini Blue.usdz"; sourceTree = SOURCE_ROOT; };
+		799EC41027FC9096004956DE /* AppleProduct3DViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleProduct3DViewer.entitlements; sourceTree = "<group>"; };
+		79BBF63B27FBFC2C00452E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7954CE5E27FB3D0D0006E229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7954CE6E27FB3D100006E229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7954CE7827FB3D100006E229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7954CE5827FB3D0D0006E229 = {
+			isa = PBXGroup;
+			children = (
+				799EC41027FC9096004956DE /* AppleProduct3DViewer.entitlements */,
+				7954CE6327FB3D0D0006E229 /* AppleDeviceInfo */,
+				7954CE7427FB3D100006E229 /* AppleDeviceInfoTests */,
+				7954CE7E27FB3D100006E229 /* AppleDeviceInfoUITests */,
+				7954CE6227FB3D0D0006E229 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7954CE6227FB3D0D0006E229 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7954CE6127FB3D0D0006E229 /* AppleProduct3DViewer.app */,
+				7954CE7127FB3D100006E229 /* AppleProduct3DViewerTests.xctest */,
+				7954CE7B27FB3D100006E229 /* AppleProduct3DViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7954CE6327FB3D0D0006E229 /* AppleDeviceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				79BBF63B27FBFC2C00452E64 /* Info.plist */,
+				7954CEA627FB60C60006E229 /* Objects */,
+				7954CE6427FB3D0D0006E229 /* AppleDeviceInfoApp.swift */,
+				7954CE6627FB3D0D0006E229 /* ContentView.swift */,
+				7954CEA227FB5E7C0006E229 /* 3DView.swift */,
+				7954CE9A27FB593C0006E229 /* AIrPods.swift */,
+				7954CE9827FB58820006E229 /* AppleTV.swift */,
+				7954CE8E27FB4D280006E229 /* Mac.swift */,
+				7954CE9027FB4EAB0006E229 /* iPad.swift */,
+				7954CE9227FB4F4D0006E229 /* iPhone.swift */,
+				7954CE9627FB57820006E229 /* AppleWatch.swift */,
+				7954CE9C27FB5A6E0006E229 /* HomePod mini.swift */,
+				7954CE9E27FB5AD90006E229 /* AirTag.swift */,
+				7954CE9427FB512B0006E229 /* ErrorView.swift */,
+				7954CE6827FB3D100006E229 /* Assets.xcassets */,
+				7954CE6A27FB3D100006E229 /* Preview Content */,
+			);
+			path = AppleDeviceInfo;
+			sourceTree = "<group>";
+		};
+		7954CE6A27FB3D100006E229 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7954CE6B27FB3D100006E229 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7954CE7427FB3D100006E229 /* AppleDeviceInfoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7954CE7527FB3D100006E229 /* AppleDeviceInfoTests.swift */,
+			);
+			path = AppleDeviceInfoTests;
+			sourceTree = "<group>";
+		};
+		7954CE7E27FB3D100006E229 /* AppleDeviceInfoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7954CE7F27FB3D100006E229 /* AppleDeviceInfoUITests.swift */,
+				7954CE8127FB3D100006E229 /* AppleDeviceInfoUITestsLaunchTests.swift */,
+			);
+			path = AppleDeviceInfoUITests;
+			sourceTree = "<group>";
+		};
+		7954CEA627FB60C60006E229 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				7954CEA827FB60CC0006E229 /* Earth.usdz */,
+				7954CEE827FB6FEB0006E229 /* iPhone 12.usdz */,
+				7954CEED27FB6FEB0006E229 /* iPhone 13 Blue.usdz */,
+				7954CEE727FB6FEB0006E229 /* iPhone 13 Green.usdz */,
+				7954CEEC27FB6FEB0006E229 /* iPhone 13 Midnight.usdz */,
+				7954CEF027FB6FEB0006E229 /* iPhone 13 Pink.usdz */,
+				7954CEE927FB6FEB0006E229 /* iPhone 13 Pro  Alpine Green.usdz */,
+				7954CEEA27FB6FEB0006E229 /* iPhone 13 Pro  Silver.usdz */,
+				7954CEE427FB6FEB0006E229 /* iPhone 13 Pro Gold.usdz */,
+				7954CEEF27FB6FEB0006E229 /* iPhone 13 Pro Graphite.usdz */,
+				7954CEE527FB6FEB0006E229 /* iPhone 13 Pro Sierra Blue.usdz */,
+				7954CEF127FB6FEB0006E229 /* iPhone 13 Product Red.usdz */,
+				7954CEF227FB6FEB0006E229 /* iPhone 13 Starlight.usdz */,
+				7954CEEB27FB6FEB0006E229 /* iPhone SE Midnight.usdz */,
+				7954CEEE27FB6FEB0006E229 /* iPhone SE Product Red.usdz */,
+				7954CEE627FB6FEB0006E229 /* iPhone SE Starlight.usdz */,
+				7954CEC327FB6A080006E229 /* iMac 24.usdz */,
+				7954CEC727FB6A080006E229 /* iPad Air.usdz */,
+				7954CED127FB6A080006E229 /* iPad mini.usdz */,
+				7954CECB27FB6A080006E229 /* iPad Pro 11.usdz */,
+				7954CECA27FB6A080006E229 /* iPad Pro 12.9.usdz */,
+				7954CECC27FB6A080006E229 /* iPad.usdz */,
+				7954CEC827FB6A080006E229 /* M1 MacBook Pro 13.usdz */,
+				7954CEC527FB6A080006E229 /* Mac mini.usdz */,
+				7954CECE27FB6A080006E229 /* Mac Pro.usdz */,
+				7954CEC927FB6A080006E229 /* Mac Studio.usdz */,
+				7954CEC427FB6A080006E229 /* mac_studio_system.usdz */,
+				7954CEC627FB6A080006E229 /* MacBook Air.usdz */,
+				7954CECD27FB6A080006E229 /* MacBook Pro 14.usdz */,
+				7954CED227FB6A080006E229 /* MacBook Pro 16.usdz */,
+				7954CECF27FB6A080006E229 /* Pro Display XDR.usdz */,
+				7954CED027FB6A080006E229 /* Studio Display.usdz */,
+				7954CEC227FB6A080006E229 /* studio_display_system.usdz */,
+				7954CF0227FB74300006E229 /* Apple Watch S3.usdz */,
+				7954CF0727FB74300006E229 /* Apple Watch S7 Blue.usdz */,
+				7954CF0427FB74300006E229 /* Apple Watch S7 Green.usdz */,
+				7954CF0527FB74300006E229 /* Apple Watch S7 Product Red.usdz */,
+				7954CF0327FB74300006E229 /* Apple Watch S7 Starlight.usdz */,
+				7954CF0627FB74300006E229 /* Apple Watch SE.usdz */,
+				7954CF0E27FB74F40006E229 /* Apple Watch S7 Midnight.usdz */,
+				7954CF1127FB759A0006E229 /* Apple TV 4K.usdz */,
+				7954CF1027FB759A0006E229 /* Apple TV HD.usdz */,
+				7954CF1A27FB77470006E229 /* AirPods MAX Green.usdz */,
+				7954CF1827FB77470006E229 /* AirPods MAX Pink.usdz */,
+				7954CF1427FB77470006E229 /* AirPods MAX Silver.usdz */,
+				7954CF1527FB77470006E229 /* AirPods MAX Sky Blue.usdz */,
+				7954CF1627FB77470006E229 /* AirPods MAX Space Gray.usdz */,
+				7954CF1927FB77470006E229 /* AirPods S3.usdz */,
+				7954CF2227FB78710006E229 /* AirPods Pro.usdz */,
+				7954CF2427FB79680006E229 /* AirTag.usdz */,
+				7954CF2827FB79680006E229 /* HomePod mini Gray.usdz */,
+				7954CF2927FB79680006E229 /* HomePod mini Blue.usdz */,
+				7954CF2627FB79680006E229 /* Homepod mini Orange.usdz */,
+				7954CF2527FB79680006E229 /* Homepod mini White.usdz */,
+				7954CF2727FB79680006E229 /* Homepod mini Yellow.usdz */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7954CE6027FB3D0D0006E229 /* AppleProduct3DViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7954CE8527FB3D100006E229 /* Build configuration list for PBXNativeTarget "AppleProduct3DViewer" */;
+			buildPhases = (
+				7954CE5D27FB3D0D0006E229 /* Sources */,
+				7954CE5E27FB3D0D0006E229 /* Frameworks */,
+				7954CE5F27FB3D0D0006E229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleProduct3DViewer;
+			productName = AppleDeviceInfo;
+			productReference = 7954CE6127FB3D0D0006E229 /* AppleProduct3DViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7954CE7027FB3D100006E229 /* AppleProduct3DViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7954CE8827FB3D100006E229 /* Build configuration list for PBXNativeTarget "AppleProduct3DViewerTests" */;
+			buildPhases = (
+				7954CE6D27FB3D100006E229 /* Sources */,
+				7954CE6E27FB3D100006E229 /* Frameworks */,
+				7954CE6F27FB3D100006E229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7954CE7327FB3D100006E229 /* PBXTargetDependency */,
+			);
+			name = AppleProduct3DViewerTests;
+			productName = AppleDeviceInfoTests;
+			productReference = 7954CE7127FB3D100006E229 /* AppleProduct3DViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7954CE7A27FB3D100006E229 /* AppleProduct3DViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7954CE8B27FB3D100006E229 /* Build configuration list for PBXNativeTarget "AppleProduct3DViewerUITests" */;
+			buildPhases = (
+				7954CE7727FB3D100006E229 /* Sources */,
+				7954CE7827FB3D100006E229 /* Frameworks */,
+				7954CE7927FB3D100006E229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7954CE7D27FB3D100006E229 /* PBXTargetDependency */,
+			);
+			name = AppleProduct3DViewerUITests;
+			productName = AppleDeviceInfoUITests;
+			productReference = 7954CE7B27FB3D100006E229 /* AppleProduct3DViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7954CE5927FB3D0D0006E229 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					7954CE6027FB3D0D0006E229 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					7954CE7027FB3D100006E229 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 7954CE6027FB3D0D0006E229;
+					};
+					7954CE7A27FB3D100006E229 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 7954CE6027FB3D0D0006E229;
+					};
+				};
+			};
+			buildConfigurationList = 7954CE5C27FB3D0D0006E229 /* Build configuration list for PBXProject "AppleProduct3DViewer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7954CE5827FB3D0D0006E229;
+			productRefGroup = 7954CE6227FB3D0D0006E229 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7954CE6027FB3D0D0006E229 /* AppleProduct3DViewer */,
+				7954CE7027FB3D100006E229 /* AppleProduct3DViewerTests */,
+				7954CE7A27FB3D100006E229 /* AppleProduct3DViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7954CE5F27FB3D0D0006E229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7954CEF527FB6FEB0006E229 /* iPhone SE Starlight.usdz in Resources */,
+				7954CF1B27FB77470006E229 /* AirPods MAX Silver.usdz in Resources */,
+				7954CEDA27FB6A080006E229 /* Mac Studio.usdz in Resources */,
+				7954CEE127FB6A080006E229 /* Studio Display.usdz in Resources */,
+				7954CF0027FB6FEB0006E229 /* iPhone 13 Product Red.usdz in Resources */,
+				7954CEE027FB6A080006E229 /* Pro Display XDR.usdz in Resources */,
+				7954CEE227FB6A080006E229 /* iPad mini.usdz in Resources */,
+				7954CF0827FB74300006E229 /* Apple Watch S3.usdz in Resources */,
+				7954CF0D27FB74300006E229 /* Apple Watch S7 Blue.usdz in Resources */,
+				7954CEF427FB6FEB0006E229 /* iPhone 13 Pro Sierra Blue.usdz in Resources */,
+				7954CEFA27FB6FEB0006E229 /* iPhone SE Midnight.usdz in Resources */,
+				7954CEA927FB62590006E229 /* Earth.usdz in Resources */,
+				7954CEDF27FB6A080006E229 /* Mac Pro.usdz in Resources */,
+				7954CEF627FB6FEB0006E229 /* iPhone 13 Green.usdz in Resources */,
+				7954CF2127FB77470006E229 /* AirPods MAX Green.usdz in Resources */,
+				7954CE6C27FB3D100006E229 /* Preview Assets.xcassets in Resources */,
+				7954CEF827FB6FEB0006E229 /* iPhone 13 Pro  Alpine Green.usdz in Resources */,
+				7954CEE327FB6A080006E229 /* MacBook Pro 16.usdz in Resources */,
+				7954CED627FB6A080006E229 /* Mac mini.usdz in Resources */,
+				7954CED527FB6A080006E229 /* mac_studio_system.usdz in Resources */,
+				7954CF2027FB77470006E229 /* AirPods S3.usdz in Resources */,
+				7954CEDD27FB6A080006E229 /* iPad.usdz in Resources */,
+				7954CEFF27FB6FEB0006E229 /* iPhone 13 Pink.usdz in Resources */,
+				7954CEFB27FB6FEB0006E229 /* iPhone 13 Midnight.usdz in Resources */,
+				7954CF1227FB759A0006E229 /* Apple TV HD.usdz in Resources */,
+				7954CF2327FB78710006E229 /* AirPods Pro.usdz in Resources */,
+				7954CEF727FB6FEB0006E229 /* iPhone 12.usdz in Resources */,
+				7954CF2C27FB79680006E229 /* Homepod mini Orange.usdz in Resources */,
+				7954CEFC27FB6FEB0006E229 /* iPhone 13 Blue.usdz in Resources */,
+				7954CF0F27FB74F40006E229 /* Apple Watch S7 Midnight.usdz in Resources */,
+				7954CED727FB6A080006E229 /* MacBook Air.usdz in Resources */,
+				7954CF2F27FB79680006E229 /* HomePod mini Blue.usdz in Resources */,
+				7954CED427FB6A080006E229 /* iMac 24.usdz in Resources */,
+				7954CF1D27FB77470006E229 /* AirPods MAX Space Gray.usdz in Resources */,
+				7954CF1327FB759A0006E229 /* Apple TV 4K.usdz in Resources */,
+				7954CEF927FB6FEB0006E229 /* iPhone 13 Pro  Silver.usdz in Resources */,
+				7954CEFD27FB6FEB0006E229 /* iPhone SE Product Red.usdz in Resources */,
+				7954CF1F27FB77470006E229 /* AirPods MAX Pink.usdz in Resources */,
+				7954CE6927FB3D100006E229 /* Assets.xcassets in Resources */,
+				7954CF0127FB6FEB0006E229 /* iPhone 13 Starlight.usdz in Resources */,
+				7954CED927FB6A080006E229 /* M1 MacBook Pro 13.usdz in Resources */,
+				7954CF2A27FB79680006E229 /* AirTag.usdz in Resources */,
+				7954CEF327FB6FEB0006E229 /* iPhone 13 Pro Gold.usdz in Resources */,
+				7954CF0B27FB74300006E229 /* Apple Watch S7 Product Red.usdz in Resources */,
+				7954CF0927FB74300006E229 /* Apple Watch S7 Starlight.usdz in Resources */,
+				7954CF0C27FB74300006E229 /* Apple Watch SE.usdz in Resources */,
+				7954CF2D27FB79680006E229 /* Homepod mini Yellow.usdz in Resources */,
+				7954CF1C27FB77470006E229 /* AirPods MAX Sky Blue.usdz in Resources */,
+				7954CED827FB6A080006E229 /* iPad Air.usdz in Resources */,
+				7954CEFE27FB6FEB0006E229 /* iPhone 13 Pro Graphite.usdz in Resources */,
+				7954CEDE27FB6A080006E229 /* MacBook Pro 14.usdz in Resources */,
+				7954CED327FB6A080006E229 /* studio_display_system.usdz in Resources */,
+				7954CF2B27FB79680006E229 /* Homepod mini White.usdz in Resources */,
+				7954CF0A27FB74300006E229 /* Apple Watch S7 Green.usdz in Resources */,
+				7954CEDB27FB6A080006E229 /* iPad Pro 12.9.usdz in Resources */,
+				7954CF2E27FB79680006E229 /* HomePod mini Gray.usdz in Resources */,
+				7954CEDC27FB6A080006E229 /* iPad Pro 11.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7954CE6F27FB3D100006E229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7954CE7927FB3D100006E229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7954CE5D27FB3D0D0006E229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7954CE6727FB3D0D0006E229 /* ContentView.swift in Sources */,
+				7954CE9727FB57820006E229 /* AppleWatch.swift in Sources */,
+				7954CE9D27FB5A6E0006E229 /* HomePod mini.swift in Sources */,
+				7954CEA327FB5E7C0006E229 /* 3DView.swift in Sources */,
+				7954CE9527FB512B0006E229 /* ErrorView.swift in Sources */,
+				7954CE8F27FB4D280006E229 /* Mac.swift in Sources */,
+				7954CE9927FB58820006E229 /* AppleTV.swift in Sources */,
+				7954CE9F27FB5AD90006E229 /* AirTag.swift in Sources */,
+				7954CE9327FB4F4D0006E229 /* iPhone.swift in Sources */,
+				7954CE6527FB3D0D0006E229 /* AppleDeviceInfoApp.swift in Sources */,
+				7954CE9B27FB593C0006E229 /* AIrPods.swift in Sources */,
+				7954CE9127FB4EAB0006E229 /* iPad.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7954CE6D27FB3D100006E229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7954CE7627FB3D100006E229 /* AppleDeviceInfoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7954CE7727FB3D100006E229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7954CE8027FB3D100006E229 /* AppleDeviceInfoUITests.swift in Sources */,
+				7954CE8227FB3D100006E229 /* AppleDeviceInfoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7954CE7327FB3D100006E229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7954CE6027FB3D0D0006E229 /* AppleProduct3DViewer */;
+			targetProxy = 7954CE7227FB3D100006E229 /* PBXContainerItemProxy */;
+		};
+		7954CE7D27FB3D100006E229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7954CE6027FB3D0D0006E229 /* AppleProduct3DViewer */;
+			targetProxy = 7954CE7C27FB3D100006E229 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7954CE8327FB3D100006E229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7954CE8427FB3D100006E229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7954CE8627FB3D100006E229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppleProduct3DViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleDeviceInfo/Preview Content\"";
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppleDeviceInfo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = club.crazyapps.AppleDeviceInfo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7954CE8727FB3D100006E229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppleProduct3DViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleDeviceInfo/Preview Content\"";
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppleDeviceInfo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = club.crazyapps.AppleDeviceInfo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7954CE8927FB3D100006E229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = club.crazyapps.AppleDeviceInfoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleProduct3DViewer.app/AppleProduct3DViewer";
+			};
+			name = Debug;
+		};
+		7954CE8A27FB3D100006E229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = club.crazyapps.AppleDeviceInfoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleProduct3DViewer.app/AppleProduct3DViewer";
+			};
+			name = Release;
+		};
+		7954CE8C27FB3D100006E229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = club.crazyapps.AppleDeviceInfoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleDeviceInfo;
+			};
+			name = Debug;
+		};
+		7954CE8D27FB3D100006E229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = club.crazyapps.AppleDeviceInfoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleDeviceInfo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7954CE5C27FB3D0D0006E229 /* Build configuration list for PBXProject "AppleProduct3DViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7954CE8327FB3D100006E229 /* Debug */,
+				7954CE8427FB3D100006E229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7954CE8527FB3D100006E229 /* Build configuration list for PBXNativeTarget "AppleProduct3DViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7954CE8627FB3D100006E229 /* Debug */,
+				7954CE8727FB3D100006E229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7954CE8827FB3D100006E229 /* Build configuration list for PBXNativeTarget "AppleProduct3DViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7954CE8927FB3D100006E229 /* Debug */,
+				7954CE8A27FB3D100006E229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7954CE8B27FB3D100006E229 /* Build configuration list for PBXNativeTarget "AppleProduct3DViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7954CE8C27FB3D100006E229 /* Debug */,
+				7954CE8D27FB3D100006E229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7954CE5927FB3D0D0006E229 /* Project object */;
+}
